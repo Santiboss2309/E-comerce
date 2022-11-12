@@ -16,10 +16,11 @@ _Instalar python_
 ```
 desde la página oficial
  $pip install virtualenv
- # python -m venv nombre-entorno 
- $ .\nombre-entorno\Scripts\activate
+ # python -m venv env
+
+ $ petStore\env\Scripts\activate
  # Install modules - SQLite Storag 
- pip3 install -r requirements.txt
+ pip install -r requirements.txt
 
  $ python manage.py makemigrations 
  $ python manage.py migrate $ 
